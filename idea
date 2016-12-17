@@ -1,0 +1,13 @@
+want to classify google image search results for artist name into different categories:
+
+artwork (of that artist) - include altered artwork? (photoshopped, parodies?)
+photo of the artist
+both (for example artist posing next to artwork)
+ambiguous (self-portraits)
+other/unrelated
+temporarily unable to classify
+
+
+
+Interpretation unclear. Narcissism? Sexism? Type of art?
+Problem: extract effect of advent of photography obviously

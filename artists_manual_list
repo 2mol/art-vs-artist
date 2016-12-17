@@ -1,0 +1,27 @@
+# extend with birth year and classify by type (painter, sculptor, photographer, installation, mixed)
+# tag with gender (or make algo infer from wikipedia)
+
+Niki de Saint Phalle
+James Turrell
+Pablo Picasso
+Picasso #gives very different result, generally true for 'brand-name' artists
+Wassily Kandinsky #same if just 'kandinsky'
+Francis Bacon artist #sometimes necessary when name overlaps with other famous figure
+Leonardo DaVinci
+Michelangelo
+Frida Kahlo
+Artemisia Gentileschi
+Joan Mitchell
+Jackson Pollock
+Gustav Klimt
+Egon Schiele
+Marlene Dumas
+Tracey Emin
+Jenny Saville
+Bridget Riley
+Yves Klein
+Alphonse Mucha
+Aubrey Beardsley
+James Ensor
+Edvard Munch
+Camille Claudel
