@@ -1,47 +1,58 @@
-import os, urllib
-import re
+import re, os, urllib
+import pickle
+
+import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 from bs4 import BeautifulSoup
 
+
+# ------------- set up: ----------
+
 driver = webdriver.Firefox()
 driver.get("https://images.google.com")
-#assert "Python" in driver.title
-elem = driver.find_element_by_name("q")
-#elem.clear()
-elem.send_keys("pycon")
-elem.send_keys(Keys.RETURN)
-#assert "No results found." not in driver.page_source
 
-page_source = driver.page_source
+# --------------------------------
 
-# ------ from here on out all clean --------
+with open('artist_list.pickle', 'rb') as f:
+    artist_list = pickle.load(f)
 
-soup = BeautifulSoup(page_source, 'html.parser')
-candidates = soup.find_all('div', class_="rg_meta")
+for artist_name in artist_list:
+    elem = driver.find_element_by_name("q")
+    elem.clear()
+    elem.send_keys(artist_name)
+    elem.send_keys(Keys.RETURN)
 
-# for res in re.finditer("https?://.*\.(png|jpg|jpeg|gif)", re.IGNORECASE)
+    while artist_name not in driver.title:
+        time.sleep(1)
 
-image_urls = []
+    page_source = driver.page_source
 
-for tag in candidates:
-    crap = tag.string
-    regex = re.search("https?://.*\.(png|jpg|jpeg|gif)", crap, re.IGNORECASE)
-    if regex is not None:
-        image_urls.append(crap[regex.start():regex.end()])
+    # ------ from here on out all clean --------
 
-# for res in re.finditer("(?P<url>https?://[^\s]+)", s):
-#     urls.append(s[res.start():res.end()+1])
+    soup = BeautifulSoup(page_source, 'html.parser')
+    candidates = soup.find_all('div', class_="rg_meta")
 
-for incr, url in enumerate(image_urls):
-    subdir = '' # make this request dependent (i.e artist name)
-    file_ending = url[url.rfind('.'):]
-    filename = str(incr).zfill(3) + file_ending
-    filepath = os.path.join('images', subdir, filename)
-    os.system(f"wget {url} -O {filepath}")
+    image_urls = []
 
+    for tag in candidates:
+        crap = tag.string
+        regex = re.search("https?://.*?\.(png|jpg|jpeg|gif)", crap, re.IGNORECASE)
+        if regex is not None:
+            first_match = crap[regex.start():regex.end()]
+            image_urls.append(first_match)
+
+    for incr, url in enumerate(image_urls):
+        subdir = artist_name.replace(' ', '_')
+        folder = os.path.join('images', subdir)
+        os.system(f"mkdir -p {folder}")
+
+        file_ending = url[url.rfind('.'):]
+        filename = str(incr).zfill(3) + file_ending
+        filepath = os.path.join(folder, filename)
+        os.system(f"wget {url} -O {filepath}")
 
 
 # aaaall the way at the end: 
