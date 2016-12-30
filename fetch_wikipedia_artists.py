@@ -46,8 +46,9 @@ for line in artist_lines:
     artist_info = [name, fields, birthyear, gender, ambiguous]
     artists.append(artist_info)
 
+artist_names = [artist[0] for artist in artists]
 
-
-
+with open('artitst.txt', 'w', encoding='utf-8') as f:
+    f.write('\n'.join(artist_names))
 
 #ignored_categories = all_fields - categories
