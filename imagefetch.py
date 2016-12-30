@@ -39,9 +39,9 @@ for artist_name in artist_list:
 
     for tag in candidates:
         crap = tag.string
-        regex = re.search("https?://.*?\.(png|jpg|jpeg|gif)", crap, re.IGNORECASE)
+        regex = re.search('https?://.*?\.(png|jpg|jpeg|gif)\"', crap, re.IGNORECASE)
         if regex is not None:
-            first_match = crap[regex.start():regex.end()]
+            first_match = crap[regex.start():regex.end()-1]
             image_urls.append(first_match)
 
     for incr, url in enumerate(image_urls):
@@ -51,8 +51,9 @@ for artist_name in artist_list:
 
         file_ending = url[url.rfind('.'):]
         filename = str(incr).zfill(3) + file_ending
-        filepath = os.path.join(folder, filename)
-        os.system(f"wget {url} -O {filepath}")
+        file = os.path.join(folder, filename)
+        # os.system(f"wget {url} -O {file}")
+        os.system(f"aria2c {url} -o {file}")
 
 
 # aaaall the way at the end: 
