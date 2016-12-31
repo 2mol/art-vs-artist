@@ -22,7 +22,7 @@ with open('artist_list.pickle', 'rb') as f:
 
 skip_number = artist_list.index(STARTFROM)
 
-for artist_name in artist_list[:]:
+for artist_name in artist_list[skip_number:]:
     elem = driver.find_element_by_name("q")
     elem.clear()
     elem.send_keys(artist_name)
@@ -57,7 +57,11 @@ for artist_name in artist_list[:]:
         file = os.path.join(folder, filename)
         # os.system(f"wget {url} -O {file}")
         # os.system(f"aria2c {url} -o {file}")
-        cmd = ['aria2c', url, '-o', file, '--max-tries=2',  '--retry-wait=1']
+        cmd = ['aria2c', url, '-o', file,
+               '--max-tries=2',
+               '--retry-wait=1',
+               '--connect-timeout=5',
+               '-timeout=20',]
         # subprocess is better:
         subprocess.call(cmd)
 
