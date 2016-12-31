@@ -1,4 +1,4 @@
-import re, os, urllib
+import re, os, urllib, subprocess
 import pickle
 
 import time
@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 from bs4 import BeautifulSoup
 
+STARTFROM = 'Michelle Stuart'
 
 # ------------- set up: ----------
 
@@ -19,7 +20,9 @@ driver.get("https://images.google.com")
 with open('artist_list.pickle', 'rb') as f:
     artist_list = pickle.load(f)
 
-for artist_name in artist_list:
+skip_number = artist_list.index(STARTFROM)
+
+for artist_name in artist_list[:]:
     elem = driver.find_element_by_name("q")
     elem.clear()
     elem.send_keys(artist_name)
@@ -53,7 +56,10 @@ for artist_name in artist_list:
         filename = str(incr).zfill(3) + file_ending
         file = os.path.join(folder, filename)
         # os.system(f"wget {url} -O {file}")
-        os.system(f"aria2c {url} -o {file}")
+        # os.system(f"aria2c {url} -o {file}")
+        cmd = ['aria2c', url, '-o', file, '--max-tries=2',  '--retry-wait=1']
+        # subprocess is better:
+        subprocess.call(cmd)
 
 
 # aaaall the way at the end: 
