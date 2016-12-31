@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 from bs4 import BeautifulSoup
 
-STARTFROM = 'Michelle Stuart'
+STARTFROM = 'Shelagh Cluett'
 
 # ------------- set up: ----------
 
@@ -61,7 +61,7 @@ for artist_name in artist_list[skip_number:]:
                '--max-tries=2',
                '--retry-wait=1',
                '--connect-timeout=5',
-               '-timeout=20',]
+               '--timeout=20',]
         # subprocess is better:
         subprocess.call(cmd)
 
