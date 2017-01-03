@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 from bs4 import BeautifulSoup
 
-STARTFROM = 'Shelagh Cluett'
+STARTFROM = 'Olivia Peguero'
 
 # ------------- set up: ----------
 
