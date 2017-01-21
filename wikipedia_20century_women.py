@@ -1,61 +1,62 @@
-import pickle
 
 import wikipedia
 import pandas as pd
 
-artists = []
 
-women_20cen = wikipedia.page('List of 20th-century women artists')
+def fetch_artists():
+    ''' Gets and processes the list found at
+    https://en.wikipedia.org/wiki/List_of_20th-century_women_artists
+    '''
+    artists = []
 
-ambiguous = False
-all_fields = set()
-relevant_fields = {'painter', 'sculptor', 'photographer', 'illustrator'}
+    women_20cen = wikipedia.page('List of 20th-century women artists')
 
-artist_lines = []
-for line in women_20cen.content.splitlines():
-    if '(' in line and '),' in line:
-        artist_lines.append(line)
+    ambiguous = False
+    all_fields = set()
+    relevant_fields = {'painter', 'sculptor', 'photographer', 'illustrator'}
+    # calligrapher, graphic designer, textile printer, watercolour painter,
+    # printmaker, muralist, ...
 
-for line in artist_lines:
-    fields = set()
-    year_info = line[line.rfind("(")+1 : line.rfind(")")]
-    name_info, field_info = line.split('(' + year_info + ')')
-    
-    name_crap = name_info[name_info.find("(")+1 : name_info.find(")")]
-    if name_crap.lower() == 'artist': ambiguous = True
-    else: ambiguous = False
+    artist_lines = []
+    for line in women_20cen.content.splitlines():
+        if '(' in line and '),' in line:
+            artist_lines.append(line)
 
-    for potential_field in field_info.split(','):
-        potential_field = potential_field.strip()
-        if potential_field == '': continue
-        all_fields.add(potential_field)
-        for relevant_field in relevant_fields:
-            if relevant_field in potential_field:
-                fields.add(relevant_field)
-#            else:
-#                fields.add('other')
+    for line in artist_lines:
+        fields = set()
+        year_info = line[line.rfind("(")+1 : line.rfind(")")]
+        name_info, field_info = line.split('(' + year_info + ')')
 
-    name = name_info.replace('(' + name_crap + ') ', '').strip()
+        name_crap = name_info[name_info.find("(")+1 : name_info.find(")")]
+        if name_crap.lower() == 'artist':
+            ambiguous = True
+        else:
+            ambiguous = False
 
-    year_info_idx = year_info.find('18')
-    if year_info_idx == -1:
-        year_info_idx = year_info.find('19')
-    birthyear = year_info[year_info_idx : year_info_idx + 4]
+        for potential_field in field_info.split(','):
+            potential_field = potential_field.strip()
+            if potential_field == '':
+                continue
+            all_fields.add(potential_field)
+            for relevant_field in relevant_fields:
+                if relevant_field in potential_field:
+                    fields.add(relevant_field)
+    #            else:
+    #                fields.add('other')
 
-    gender = 'f'
+        name = name_info.replace('(' + name_crap + ') ', '').strip()
 
-    if fields == set(): continue
+        year_info_idx = year_info.find('18')
+        if year_info_idx == -1:
+            year_info_idx = year_info.find('19')
+        birthyear = year_info[year_info_idx : year_info_idx + 4]
 
-    artist_info = [name, fields, birthyear, gender, ambiguous]
-    artists.append(artist_info)
+        gender = 'f'
 
-artist_names = [artist[0] for artist in artists]
+        if fields == set():
+            continue
 
-# with open('artitst.txt', 'w', encoding='utf-8') as f:
-#     f.write('\n'.join(artist_names))
+        artist_info = [name, fields, birthyear, gender, ambiguous]
+        artists.append(artist_info)
 
-# with open('artist_list.pickle', 'wb') as f:
-#     pickle.dump(artist_names, f)
-
-
-#ignored_categories = all_fields - categories
+    artist_names = [artist[0] for artist in artists]
