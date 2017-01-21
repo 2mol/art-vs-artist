@@ -1,0 +1,501 @@
+Name,birthyear,gender,ambiguous_name,painter,sculptor,photographer,illustrator
+Louise Abbéma,1858,f,False,True,True,False,False
+Helen Allingham,1848,f,False,True,False,False,True
+Laura Alma-Tadema,1852,f,False,True,False,False,False
+Anna Ancher,1859,f,False,True,False,False,False
+Sophie Anderson,1823,f,False,True,False,False,False
+Marie-Elmina Anger,1844,f,False,True,False,False,False
+Lucy Angeline Bacon,1857,f,False,True,False,False,False
+Alice Pike Barney,1857,f,False,True,False,False,False
+Jane E. Bartlett,1839,f,False,True,False,False,False
+Cecilia Beaux,1855,f,False,True,False,False,False
+Harriet Blackstone,1864,f,False,True,False,False,False
+Alice Boughton,1866,f,False,False,False,True,False
+Marie Bracquemond,1841,f,False,True,False,False,False
+Elizabeth Eaton Burton,1869,f,False,True,False,False,False
+Sally Bush,1860,f,False,False,False,True,False
+Mary Cassatt,1844,f,False,True,False,False,False
+Christabel Cockerell,1863,f,False,True,False,False,False
+Kate Cory,1861,f,False,True,True,False,False
+Alice Dannenberg,1861,f,False,True,False,False,False
+Jenny Eakin Delony,1866,f,False,True,False,False,False
+Florence Dreyfous,1868,f,False,True,False,False,False
+Florence Esté,1860,f,False,True,False,False,False
+Laura Ann Fry,1857,f,False,True,False,False,False
+Ethel Gabain,1883,f,False,True,False,False,False
+Anne Goldthwaite,1869,f,False,True,False,False,False
+Laura Coombs Hills,1859,f,False,True,False,False,False
+Anna Hope Hudson,1869,f,False,True,False,False,False
+Frances Benjamin Johnston,1864,f,False,False,False,True,False
+Gertrude Käsebier,1852,f,False,False,False,True,False
+Lucy Kemp-Welch,1869,f,False,True,False,False,False
+Kitty Lange Kielland,1843,f,False,True,False,False,False
+Hilma af Klint,1862,f,False,True,False,False,False
+Käthe Kollwitz,1867,f,False,True,True,False,False
+Jessie Lipscomb,1861,f,False,False,True,False,False
+Séraphine Louis,1864,f,False,True,False,False,False
+Bessie MacNicol,1869,f,False,True,False,False,False
+Blanche Hoschedé Monet,1865,f,False,True,False,False,False
+Grandma Moses,1860,f,False,True,False,False,False
+Clara Chipman Newton,1848,f,False,True,False,False,False
+Lilla Cabot Perry,1848,f,False,True,False,False,False
+Vinnie Ream,1847,f,False,False,True,False,False
+Helene Schjerfbeck,1862,f,False,True,False,False,False
+Janet Scudder,1869,f,False,False,True,False,False
+Jessie Willcox Smith,1863,f,False,True,False,False,True
+Gertrude Spencer-Stanhope,1857,f,False,True,True,False,False
+Eloise Harriet Stannard,1829,f,False,True,False,False,False
+Emily Coppin Stannard,1803,f,False,True,False,False,False
+Annie Swynnerton,1844,f,False,True,False,False,False
+Ellen Thesleff,1869,f,False,True,False,False,False
+Juliet Thompson,1873,f,False,True,False,False,False
+Suzanne Valadon,1865,f,False,True,False,False,False
+Marianne von Werefkin,1860,f,False,True,False,False,False
+Elenore Abbott,1875,f,False,True,False,False,False
+Lizzy Ansingh,1875,f,False,True,False,False,False
+Vanessa Bell,1879,f,False,True,False,False,False
+Romaine Brooks,1874,f,False,True,False,False,False
+Edith Woodman Burroughs,1871,f,False,False,True,False,False
+Émilie Charmy,1878,f,False,True,False,False,False
+Elinor Darwin,1871,f,False,True,False,False,False
+Bessie Davidson,1879,f,False,True,False,False,False
+Edith Dimock,1876,f,False,True,False,False,False
+Katherine Sophie Dreier,1877,f,False,True,False,False,False
+Dulah Marie Evans,1875,f,False,True,False,True,False
+Christian Jane Fergusson,1876,f,False,True,False,False,False
+Mary Foote,1872,f,False,True,False,False,False
+Meta Vaux Warrick Fuller,1877,f,False,True,True,False,False
+Margaret Gere,1878,f,False,True,False,False,False
+Elizabeth Shippen Green,1871,f,False,True,False,False,True
+Elena Guro,1877,f,False,True,False,False,False
+Edith Haworth,1878,f,False,True,False,False,False
+Gwen John,1876,f,False,True,False,False,False
+Wilhelmina Weber Furlong,1878,f,False,True,False,False,False
+Laura Knight,1877,f,False,True,False,False,False
+Anna Coleman Ladd,1878,f,False,False,True,False,False
+Sr. Maria Stanisia,1878,f,False,True,False,False,False
+Edith Maryon,1872,f,False,False,True,False,False
+Paula Modersohn-Becker,1876,f,False,True,False,False,False
+Gabriele Münter,1877,f,False,True,False,False,False
+Margaret Preston,1875,f,False,True,False,False,False
+Ethel Sands,1873,f,False,True,False,False,False
+Martha Stettler,1870,f,False,True,False,False,False
+Anna Heyward Taylor,1879,f,False,True,False,False,False
+Bessie Potter Vonnoh,1872,f,False,False,True,False,False
+Nellie Walker,1874,f,False,False,True,False,False
+Clara McDonald Williamson,1875,f,False,True,False,False,False
+Enid Yandell,1870,f,False,False,True,False,False
+Rowena Meeks Abdy,1887,f,False,True,False,False,False
+Bessie Marsh Brewer,1884,f,False,False,True,False,False
+"Nessa Cohen,",1885,f,False,False,True,False,False
+Imogen Cunningham,1883,f,False,False,False,True,False
+Sonia Delaunay,1885,f,False,True,False,False,False
+Tarsila do Amaral,1886,f,False,True,False,False,False
+Aleksandra Ekster,1882,f,False,True,False,False,False
+Ester Ellqvist,1880,f,False,True,False,False,False
+Laura Gardin Fraser,1889,f,False,False,True,False,False
+Natalia Goncharova,1881,f,False,True,False,False,False
+Norah Neilson Gray,1882,f,False,True,False,False,False
+Madeline Emily Green,1884,f,False,True,False,False,False
+Sigrid Hjertén,1885,f,False,True,False,False,False
+Hannah Höch,1889,f,False,False,False,True,False
+Malvina Hoffman,1887,f,False,False,True,False,False
+Valentine Hugo,1887,f,False,False,False,False,True
+Marie Laurencin,1883,f,False,True,False,False,False
+Geneva Mercer,1889,f,False,False,True,False,False
+Ethel Myers,1881,f,False,True,True,False,False
+Hilda Rix Nicholas,1884,f,False,True,False,False,False
+Georgia O'Keeffe,1887,f,False,True,False,False,False
+Clara Elsene Peck,1883,f,False,True,False,False,True
+Agnes Pelton,1881,f,False,True,False,False,False
+Anne Ryan,1889,f,False,True,False,False,False
+Zinaida Serebriakova,1884,f,False,True,False,False,False
+Henrietta Shore,1880,f,False,True,False,False,False
+Helen Margaret Spanton,1877,f,False,True,False,False,False
+Sophie Taeuber-Arp,1889,f,False,True,False,False,False
+Nadezhda Udaltsova,1886,f,False,True,False,False,False
+Doris Ulmann,1882,f,False,False,False,True,False
+Laura Wheeler Waring,1887,f,False,True,False,False,False
+Mary Agnes Yerkes,1886,f,False,True,False,False,False
+Marguerite Zorach,1887,f,False,True,False,False,False
+Berenice Abbott,1898,f,False,False,False,True,False
+Karimeh Abbud,1896,f,False,False,False,True,False
+Eileen Agar,1899,f,False,True,False,False,False
+Elene Akhvlediani,1898,f,False,True,False,False,False
+Mabel Alvarez,1891,f,False,True,False,False,False
+Peggy Bacon,1895,f,False,True,False,False,True
+Clara Birnberg,1894,f,False,False,True,False,True
+Dorrit Black,1891,f,False,True,False,False,False
+Kathleen Blackshear,1897,f,False,True,False,False,False
+Lucile Blanch,1895,f,False,True,False,False,False
+Elise Blumann,1897,f,False,True,False,False,False
+Claude Cahun,1894,f,False,False,False,True,False
+Dora Carrington,1893,f,False,True,False,False,False
+Dorothy Coke,1897,f,False,True,False,False,False
+Grace Crowley,1890,f,False,True,False,False,False
+Louise Dahl-Wolfe,1895,f,False,False,False,True,False
+Laura Gilpin,1891,f,False,False,False,True,False
+Jeanne Hébuterne,1898,f,False,True,False,False,False
+Margaret Calkin James,1895,f,False,True,False,False,False
+Lotte Jacobi,1896,f,False,False,False,True,False
+Winifred Knights,1899,f,False,True,False,False,False
+Katarzyna Kobro,1898,f,False,False,True,False,False
+Dorothea Lange,1895,f,False,False,False,True,False
+Tamara de Lempicka,1898,f,False,True,False,False,False
+Suzanne Malherbe,1892,f,False,False,False,False,True
+Yevonde Middleton,1893,f,False,False,False,True,False
+Lilian May Miller,1895,f,False,True,False,False,False
+Tina Modotti,1896,f,False,False,False,True,False
+Lucia Moholy,1894,f,False,False,False,True,False
+Olive Mudie-Cooke,1890,f,False,True,False,False,False
+Louise Nevelson,1899,f,False,False,True,False,False
+Bashka Paeff,1894,f,False,False,True,False,False
+Orovida Camille Pissarro,1893,f,False,True,False,False,False
+Dod Procter,1892,f,False,True,False,False,False
+Kay Sage,1898,f,False,True,False,False,False
+Augusta Savage,1892,f,False,False,True,False,False
+Varvara Stepanova,1894,f,False,True,False,False,False
+Alma Thomas,1891,f,False,True,False,False,False
+Charley Toorop,1891,f,False,True,False,False,False
+Ogura Yuki,1895,f,False,True,False,False,False
+Margaret Firth,1898,f,False,True,False,False,False
+Gertrude Abercrombie,1909,f,False,True,False,False,False
+Mary Adshead,1904,f,False,True,False,False,False
+Catherine Tharp Altvater,1907,f,False,True,False,False,False
+Evgenia Baykova,1907,f,False,True,False,False,False
+Ruth Bernhard,1905,f,False,False,False,True,False
+Isabel Bishop,1902,f,False,True,False,False,False
+Dorr Bothwell,1902,f,False,True,False,False,False
+Margaret Bourke-White,1904,f,False,False,False,True,False
+Lola Álvarez Bravo,1907,f,False,False,False,True,False
+Emmy Bridgewater,1906,f,False,True,False,False,False
+Margaret Brundage,1900,f,False,False,False,False,True
+Norma Bull,1906,f,False,True,False,False,False
+Selma Burke,1900,f,False,False,True,False,False
+Nancy Carline,1909,f,False,True,False,False,False
+Dorothy Dehner,1901,f,False,False,True,False,False
+Evelyn Dunbar,1906,f,False,True,False,False,False
+Claire Falkenstein,1908,f,False,True,True,False,False
+Perle Fine,1905,f,False,True,False,False,False
+Leonor Fini,1907,f,False,True,False,False,False
+Cornelia MacIntyre Foley,1909,f,False,True,False,False,False
+Gisèle Freund,1908,f,False,False,False,True,False
+Edith Hamlin,1902,f,False,True,False,False,False
+Barbara Hepworth,1903,f,False,False,True,False,False
+Gertrude Hermes,1901,f,False,False,True,False,False
+Karen Holtsmark,1907,f,False,True,False,False,False
+Ray Howard-Jones,1903,f,False,True,False,False,False
+Lois Mailou Jones,1905,f,False,True,False,False,False
+Anna Kostrova,1909,f,False,True,False,False,False
+Lee Krasner,1908,f,False,True,False,False,False
+Doris Lee,1905,f,False,True,False,False,False
+Ruth Harriet Louise,1903,f,False,False,False,True,False
+Helen Lundeberg,1908,f,False,True,False,False,False
+Dora Maar,1907,f,False,True,False,True,False
+Maruja Mallo,1902,f,False,True,False,False,False
+Hansel Mieth,1909,f,False,False,False,True,False
+Lee Miller,1907,f,False,False,False,True,False
+Lisette Model,1901,f,False,False,False,True,False
+Barbara Morgan,1900,f,False,False,False,True,False
+Donia Nachshen,1903,f,False,False,False,False,True
+Alice Neel,1900,f,False,True,False,False,False
+Betty Parsons,1900,f,False,True,False,False,False
+Milena Pavlović-Barili,1909,f,False,True,False,False,False
+Irene Rice Pereira,1902,f,False,True,False,False,False
+Mary Potter,1900,f,False,True,False,False,False
+Dorothy Wagner Puccinelli,1901,f,False,True,False,False,False
+Louise Emerson Ronnebeck,1901,f,False,True,False,False,False
+"Stella Schmolle,",1908,f,False,True,False,False,False
+"Ethel Schwabacher,",1903,f,False,True,False,False,False
+Bernarda Bryson Shahn,1903,f,False,True,False,False,False
+Jessamine Shumate,1902,f,False,True,False,False,False
+Elena Skuin,1909,f,False,True,False,False,False
+Ethel Spears,1903,f,False,True,False,False,False
+Sultana Suruzhon,1900,f,False,True,False,False,False
+Lenore Tawney,1907,f,False,False,True,False,False
+Remedios Varo,1908,f,False,True,False,False,False
+Maria Helena Vieira da Silva,1908,f,False,True,False,False,False
+Ilse Weber,1908,f,False,True,False,False,False
+Henriette Wyeth,1907,f,False,True,False,False,False
+Maria Zubreeva,1900,f,False,True,False,False,False
+Ida Abelman,1910,f,False,True,False,False,False
+Taisia Afonina,1913,f,False,True,False,False,False
+Evgenia Antipova,1917,f,False,True,False,False,False
+Eve Arnold,1912,f,False,False,False,True,False
+Louise Bourgeois,1911,f,False,False,True,False,False
+Semiha Berksoy,1910,f,False,True,False,False,False
+Leonora Carrington,1917,f,False,True,False,False,False
+Chien-Ying Chang,1913,f,False,True,False,False,False
+Malvina Cheek,1915,f,False,True,False,False,False
+Elaine de Kooning,18–1,f,False,True,False,False,False
+Maya Deren,1917,f,False,False,False,True,False
+Jane Frank,18–1,f,False,True,True,False,False
+Rosalie Gascoigne,1917,f,False,False,True,False,False
+Carmen Herrera,1915,f,False,True,False,False,False
+Nora Heysen,1911,f,False,True,False,False,False
+Erlund Hudson,1912,f,False,True,False,False,False
+Tove Jansson,1914,f,False,True,False,False,True
+Kali,18–1,f,False,True,False,False,False
+Gwendolyn Knight,1914,f,False,True,False,False,False
+Jacqueline Lamba,1910,f,False,True,False,False,False
+Maria Lassnig,1919,f,False,True,False,False,False
+Helen Levitt,1913,f,False,False,False,True,False
+Frances Macdonald,1914,f,False,True,False,False,False
+Ethel Magafan,1916,f,False,True,False,False,False
+Beatrice Mandelman,1912,f,False,True,False,False,False
+Agnes Martin,1912,f,False,True,False,False,False
+Mercedes Matter née Carles,1913,f,False,True,False,False,False
+Louisa Matthíasdóttir,1917,f,False,True,False,False,False
+Mona Moore,1917,f,False,True,False,False,False
+Hilda Grossman Morris,1911,f,False,False,True,False,False
+Meret Oppenheim,1913,f,False,False,True,False,False
+Tuulikki Pietilä,1917,f,False,False,False,False,True
+Lilo Rasch-Naegele,1914,f,False,True,False,False,True
+Ruth Ray,1919,f,False,True,False,False,False
+Maria Rudnitskaya,1916,f,False,True,False,False,False
+Charlotte Salomon,1917,f,False,True,False,False,False
+Amrita Sher-Gil,1913,f,False,True,False,False,False
+Nadezhda Shteinmiller,1915,f,False,True,False,False,False
+Hedda Sterne,1910,f,False,True,False,False,False
+Dorothea Tanning,1910,f,False,True,False,False,False
+Domicėlė Tarabildienė,1912,f,False,False,True,False,True
+Gerda Taro,1910,f,False,False,False,True,False
+Anya Teixeira,1913,f,False,False,False,True,False
+Elsa Thiemann,1910,f,False,False,False,True,False
+Bridget Bate Tichenor,1917,f,False,True,False,False,False
+Pablita Velarde,18–2,f,False,True,False,False,False
+Marion Post Wolcott,1910,f,False,False,False,True,False
+Joan Elizabeth Woollard,1916,f,False,False,True,False,False
+Carla Accardi,1924,f,False,True,False,False,False
+Ida Applebroog,1929,f,False,True,False,False,False
+Diane Arbus,1923,f,False,False,False,True,False
+Etel Adnan,1925,f,False,True,False,False,False
+Alice Baber,1928,f,False,True,False,False,False
+Jo Baer,1929,f,False,True,False,False,False
+Irina Baldina,1922,f,False,True,False,False,False
+Zlata Bizova,1927,f,False,True,False,False,False
+Nell Blaine,1922,f,False,True,False,False,False
+Fanny Brennan,1921,f,False,True,False,False,False
+Esther Bubley,1921,f,False,False,False,True,False
+Marie Cosindas,1925,f,False,False,False,True,False
+Jay DeFeo,1929,f,False,True,False,False,False
+Lois Dodd,1927,f,False,True,False,False,False
+Rosalyn Drexler,1926,f,False,True,False,False,False
+Monir Shahroudy Farmanfarmaian,1924,f,False,False,True,False,False
+Lilly Fenichel,1927,f,False,True,False,False,False
+Jackie Ferrara,1929,f,False,False,True,False,False
+Mary Fitzpayne,1928,f,False,True,False,False,False
+Victorine Foot,1920,f,False,True,False,False,False
+Helen Frankenthaler,1928,f,False,True,False,False,False
+Jane Freilicher,1924,f,False,True,False,False,False
+Sonia Gechtoff,1926,f,False,True,False,False,False
+Mokarrameh Ghanbari,1928,f,False,True,False,False,False
+Françoise Gilot,1921,f,False,True,False,False,False
+Elaine Hamilton-O'Neal,1920,f,False,True,False,False,False
+Grace Hartigan,1922,f,False,True,False,False,False
+Martha Holmes,1923,f,False,False,False,True,False
+Mansooreh Hosseini,1926,f,False,True,False,False,False
+Lila Katzen,1925,f,False,False,True,False,False
+Maya Kopitseva,1924,f,False,True,False,False,False
+Tatiana Kopnina,1921,f,False,True,False,False,False
+Elena Kostenko,1926,f,False,True,False,False,False
+Marina Kozlovskaya,1925,f,False,True,False,False,False
+Yayoi Kusama,1929,f,False,False,True,False,False
+Valeria Larina,1926,f,False,True,False,False,False
+Joan Mitchell,1925,f,False,True,False,False,False
+Inge Morath,1923,f,False,False,False,True,False
+Margaret Olley,1923,f,False,True,False,False,False
+Mimi Parent,1924,f,False,True,False,False,False
+Pat Passlof,1928,f,False,True,False,False,False
+Galina Rumiantseva,1927,f,False,True,False,False,False
+Kapitolina Rumiantseva,1925,f,False,True,False,False,False
+Behjat Sadr,1924,f,False,True,False,False,False
+Honoré Desmond Sharrer,1920,f,False,True,False,False,False
+Sarai Sherman,1922,f,False,True,True,False,False
+Galina Smirnova,1929,f,False,True,False,False,False
+Nancy Spero,1926,f,False,True,False,False,False
+Hannah Tompkins,1920,f,False,True,False,False,False
+Anne Truitt,1921,f,False,False,True,False,False
+Nina Veselova,1922,f,False,True,False,False,False
+Jane Wilson,1924,f,False,True,False,False,False
+Leona Wood,1921,f,False,True,False,False,False
+Sandra Blow,1925,f,False,True,False,False,False
+Druie Bowett,1924,f,False,True,False,False,False
+Cynthia Kenny,1929,f,False,True,False,False,False
+Doretta Frenna Smith,1924,f,False,True,False,False,False
+Magdalena Abakanowicz,1930,f,False,False,True,False,False
+Alice Adams,1930,f,False,False,True,False,False
+Emma Andijewska,1931,f,False,True,False,False,False
+Gayleen Aiken,1934,f,False,True,False,False,False
+Helene Aylon,1931,f,False,False,True,False,False
+Hilla Becher,1934,f,False,False,False,True,False
+Lee Bontecou,1931,f,False,False,True,False,False
+Pauline Boty,1938,f,False,True,False,False,False
+Joan Brown,1938,f,False,True,False,False,False
+P. Buckley Moss,1933,f,False,True,False,False,False
+Chryssa,1933,f,False,False,True,False,False
+Iran Darroudi,1936,f,False,True,False,False,False
+Irina Dobrekova,1931,f,False,True,False,False,False
+Martha Edelheit,1931,f,False,True,False,False,False
+Marisol Escobar,1930,f,False,False,True,False,False
+Janet Fish,1938,f,False,True,False,False,False
+Audrey Flack,1931,f,False,True,True,False,False
+Elisabeth Frink,1930,f,False,False,True,False,False
+Irina Getmanskaya,1939,f,False,True,False,False,False
+Tatiana Gorb,1935,f,False,True,False,False,False
+Shirley Gorelick,1936,f,False,True,False,False,False
+Elena Gorokhova,1933,f,False,True,False,False,False
+Nancy Graves,1939,f,False,True,True,False,False
+Eva Hesse,1936,f,False,False,True,False,False
+Nancy Holt,1938,f,False,False,True,False,False
+Sara Leighton,1937,f,False,True,False,False,False
+Lee Lozano,1930,f,False,True,False,False,False
+Totte Mannes,1933,f,False,True,False,False,False
+Emily Mason,1932,f,False,True,False,False,False
+Leyly Matine-Daftary,1937,f,False,True,False,False,False
+Valentina Monakhova,1932,f,False,True,False,False,False
+Ree Morton,1933,f,False,True,False,False,False
+Vera Nazina,1931,f,False,True,False,False,False
+Carol Heifetz Neiman,1937,f,False,True,False,False,False
+Nancy Petyarre,1934,f,False,True,False,False,False
+Deborah Remington,1930,f,False,True,False,False,False
+Bridget Riley,1931,f,False,True,False,False,False
+Faith Ringgold,1930,f,False,True,False,False,False
+Dorothea Rockburne,1932,f,False,True,False,False,False
+Joan Semmel,1932,f,False,True,False,False,False
+Pat Steir,1938,f,False,True,False,False,False
+Marjorie Strider,1931,f,False,False,True,False,False
+Michelle Stuart,1933,f,False,True,True,True,False
+Gillian Ayres,1930,f,False,True,False,False,False
+Pacita Abad,1946,f,False,True,False,False,False
+"Gretchen Albrecht,",1943,f,False,True,False,False,False
+Heather Angel,1941,f,False,False,False,True,False
+Alice Aycock,1946,f,False,False,True,False,False
+Tina Barney,1945,f,False,False,False,True,False
+Anne Bascove,1946,f,False,True,False,False,False
+Lynda Benglis,1941,f,False,False,True,False,False
+Judith Bernstein,1942,f,False,True,False,False,False
+Vivienne Binns,1940,f,False,True,False,False,False
+Melinda Bordelon,1949,f,False,True,False,False,True
+Squeak Carnwath,1947,f,False,True,False,False,False
+Shelagh Cluett,1947,f,False,False,True,False,False
+Susan Crile,1942,f,False,True,False,False,False
+Lynn Davis,1944,f,False,False,False,True,False
+Orshi Drozdik,1946,f,False,False,True,True,False
+Bracha Ettinger,1948,f,False,True,False,True,False
+Carole Feuerman,1945,f,False,False,True,False,False
+Jan Groover,1943,f,False,False,False,True,False
+Maggi Hambling,1945,f,False,True,True,False,False
+Helen Hardin,1943,f,False,True,False,False,False
+Margaret Harrison,1940,f,False,True,False,False,False
+Masumi Hayashi,1945,f,False,False,False,True,False
+Rebecca Horn,1944,f,False,False,True,False,False
+Miyako Ishiuchi,1947,f,False,False,False,True,False
+Gayane Khachaturian,1942,f,False,True,False,False,False
+Annie Leibovitz,1949,f,False,False,False,True,False
+"Pat Lipsky,",1940,f,False,True,False,False,False
+"Hung Liu,",1948,f,False,True,False,False,False
+Markéta Luskačová,1944,f,False,False,False,True,False
+Mary Ellen Mark,1940,f,False,False,False,True,False
+Linda McCartney,1942,f,False,False,False,True,False
+Susan Meiselas,1948,f,False,False,False,True,False
+Ana Mendieta,1948,f,False,False,True,False,False
+Sheila Mullen,1942,f,False,True,False,False,False
+Glòria Muñoz,1949,f,False,True,False,False,False
+Elizabeth Murray,1940,f,False,True,False,False,False
+Avis Newman,1946,f,False,True,True,False,False
+Gladys Nilsson,1940,f,False,True,False,False,False
+Guity Novin,1944,f,False,True,False,False,False
+Gloria Petyarre,1945,f,False,True,False,False,False
+Sylvia Plachy,1943,f,False,False,False,True,False
+Susan Mohl Powers,1944,f,False,True,True,False,False
+Suellen Rocca,1943,f,False,True,False,False,False
+Barbara Rosenthal,1948,f,False,False,False,True,False
+Martha Rosler,1943,f,False,False,False,True,False
+Barbara Rossi,1940,f,False,True,False,False,False
+Ursula von Rydingsvard,1942,f,False,False,True,False,False
+Barbara Schwartz,1949,f,False,True,True,False,False
+Sandy Skoglund,1946,f,False,False,False,True,False
+Hollis Sigler,1948,f,False,True,False,False,False
+Joan Snyder,1940,f,False,True,False,False,False
+Vicki Stone,1949,f,False,True,False,False,False
+Altoon Sultan,1948,f,False,True,False,False,False
+Carol Sutton,1945,f,False,True,False,False,False
+Joyce Tenneson,1945,f,False,False,False,True,False
+Mym Tuma,1940,f,False,True,False,False,False
+Lauretta Vinciarelli,1943,f,False,True,False,False,False
+Hannah Wilke,1940,f,False,False,True,True,False
+Val Wilmer,1941,f,False,False,False,True,False
+Jackie Winsor,1941,f,False,False,True,False,False
+Eija-Liisa Ahtila,1959,f,False,False,False,True,False
+Davida Allen,1951,f,False,True,False,False,False
+Cecilia Alvarez,1950,f,False,True,False,False,False
+Anne Appleby,1954,f,False,True,False,False,False
+Lynda Barry,1956,f,False,False,False,False,True
+Chila Kumari Burman,1957,f,False,True,False,False,False
+Sophie Calle,1953,f,False,False,False,True,False
+Louisa Chase,1951,f,False,True,False,False,False
+Chinwe Chukwuogo-Roy,1952,f,False,True,False,False,False
+Sokari Douglas Camp,1958,f,False,False,True,False,False
+Joanne Gair,1958,f,False,True,False,False,False
+Anne Geddes,1956,f,False,False,False,True,False
+Nan Goldin,1953,f,False,False,False,True,False
+Akiko Hatsu,1959,f,False,False,False,False,True
+Roni Horn,1955,f,False,False,False,True,False
+Leiko Ikemura,1951,f,False,True,True,False,False
+Claudette Johnson,1959,f,False,True,False,False,False
+Marita Liulia,1957,f,False,False,False,True,False
+Sally Mann,1951,f,False,False,False,True,False
+Michiko Matsumoto,1950,f,False,False,False,True,False
+Shirin Neshat,1957,f,False,False,False,True,False
+Deborah Niland,1950,f,False,True,False,False,True
+Kilmeny Niland,1950,f,False,True,False,False,True
+Cady Noland,1956,f,False,False,True,False,False
+Cornelia Parker,1956,f,False,False,True,False,False
+Ingrid Pollard,1953,f,False,False,False,True,False
+Shani Rhys James,1953,f,False,True,False,False,False
+Jenny Scobel,1955,f,False,True,False,False,False
+Cindy Sherman,1954,f,False,False,False,True,False
+Li Shuang,1957,f,False,True,False,False,False
+Jiang Shuo,1958,f,False,False,True,False,False
+Kiki Smith,1954,f,False,False,True,False,False
+Renee Stout,1958,f,False,False,False,True,False
+Rumiko Takahashi,1957,f,False,False,False,False,True
+Zoja Trofimiuk,1952,f,False,False,True,False,False
+Alison Turnbull,1956,f,False,True,True,False,False
+Carrie Mae Weems,1953,f,False,False,False,True,False
+Emmi Whitehorse,1957,f,False,True,False,False,False
+Francesca Woodman,1958,f,False,False,False,True,False
+Zhang Xin,1953,f,False,True,False,False,False
+Jessica Abel,1969,f,False,False,False,False,True
+Margarete Bagshaw,1964,f,False,True,False,False,False
+Cecily Brown,1969,f,False,True,False,False,False
+Carolyn Cole,1961,f,False,False,False,True,False
+Inka Essenhigh,1969,f,False,True,False,False,False
+Abigail Fallis,1968,f,False,False,True,False,False
+Anna Fox,1961,f,False,False,False,True,False
+Ellen Gallagher,1965,f,False,True,False,False,False
+Brita Granström,1969,f,False,True,False,False,True
+Maya Hayuk,1969,f,False,True,False,False,False
+Chantal Joffe,1969,f,False,True,False,False,False
+Lori Kay,1962,f,False,False,True,False,False
+Toba Khedoori,1964,f,False,False,True,False,False
+Rachel Khedoori,1964,f,False,False,True,False,False
+Lorena Kloosterboer,1962,f,False,True,True,False,False
+Zoe Leonard,1961,f,False,False,False,True,False
+Catherine Opie,1961,f,False,False,False,True,False
+Olivia Peguero,1962,f,False,True,True,False,False
+Lique Schoot,1969,f,False,True,False,True,False
+Lorna Simpson,1960,f,False,False,False,True,False
+Jonny Star,1964,f,False,False,True,False,False
+Roxanne Swentzell,1962,f,False,False,True,False,False
+Jill Thompson,1966,f,False,False,False,False,True
+Verónica Ruiz de Velasco,1968,f,False,True,False,False,False
+Kara Walker,1969,f,False,True,False,False,False
+Rachel Whiteread,1963,f,False,False,True,False,False
+Melanie Yazzie,1966,f,False,True,True,False,False
+Hiromix,1976,f,False,False,False,True,False
+Rachel Kneebone,1973,f,False,False,True,False,False
+Julie Mehretu,1970,f,False,True,False,False,False
+Jenny Saville,1970,f,False,True,False,False,False
+Lynette Yiadom-Boakye,1977,f,False,True,False,False,False

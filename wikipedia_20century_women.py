@@ -1,6 +1,7 @@
 import pickle
 
 import wikipedia
+import pandas as pd
 
 artists = []
 
@@ -50,11 +51,11 @@ for line in artist_lines:
 
 artist_names = [artist[0] for artist in artists]
 
-with open('artitst.txt', 'w', encoding='utf-8') as f:
-    f.write('\n'.join(artist_names))
+# with open('artitst.txt', 'w', encoding='utf-8') as f:
+#     f.write('\n'.join(artist_names))
 
-with open('artist_list.pickle', 'wb') as f:
-    pickle.dump(artist_names, f)
+# with open('artist_list.pickle', 'wb') as f:
+#     pickle.dump(artist_names, f)
 
 
 #ignored_categories = all_fields - categories
