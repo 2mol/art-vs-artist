@@ -13,63 +13,80 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
 
-def fetch_google_images(search_terms):
-    ''' Downloads google image search results (roughly the first 100)
-    based on a list of search terms. Saves the results in folders,
-    where the folder names correspond to the search terms.
+def google_images_results(google_images_driver=None, search_term=None):
+    ''' Performs a google images search for the given search term,
+    returning a list of the image URLs on the first page (usually 100).
     '''
-    # ------------- set up only once for all search terms: -------------
-    driver = webdriver.Firefox()
-    driver.get("https://images.google.com")
-    # ------------------------------------------------------------------
+    image_urls = []
 
-    for search_term in search_terms:
-        elem = driver.find_element_by_name("q")
-        elem.clear()
-        elem.send_keys(search_term)
-        elem.send_keys(Keys.RETURN)
+    #google_images_driver.get("https://images.google.com")
+    # not stricly necessary, just assume that we already opened an image search
 
-        while search_term not in driver.title:
-            time.sleep(.5)
+    driver = google_images_driver
 
-        page_source = driver.page_source
+    elem = driver.find_element_by_name("q")
+    elem.clear()
+    elem.send_keys(search_term)
+    elem.send_keys(Keys.RETURN)
 
-        # ------ from here on out all clean --------
+    # wait for our results page to load:
+    while search_term not in driver.title:
+        time.sleep(.5)
 
-        soup = BeautifulSoup(page_source, 'html.parser')
-        candidates = soup.find_all('div', class_="rg_meta")
+    body = driver.find_element_by_xpath('//body')
 
-        image_urls = []
+    while driver.page_source.count("rg_meta") < 120:
+    # go to bottom of page to get some more search results
+        body.send_keys(Keys.END)
+        time.sleep(.5)
 
-        for tag in candidates:
-            crap = tag.string
-            regex = re.search(
-                'https?://.*?\.(png|jpg|jpeg|gif)\"',
-                crap,
-                re.IGNORECASE)
+    # give the page a second to load the results:
+    time.sleep(1)
 
-            if regex is not None:
-                first_match = crap[regex.start():regex.end() - 1]
-                image_urls.append(first_match)
+    page_source = driver.page_source
 
-        for incr, url in enumerate(image_urls):
-            subdir = search_term.replace(' ', '_')
-            folder = os.path.join('images', subdir)
-            os.system(f'mkdir -p {folder}')
+    # ------ from here on out all clean --------
 
-            file_ending = url[url.rfind('.'):]
-            filename = str(incr).zfill(3) + file_ending
-            file = os.path.join(folder, filename)
-            # os.system(f"wget {url} -O {file}")
-            # os.system(f"aria2c {url} -o {file}")
-            cmd = ['aria2c', url, '-o', file,
-                   '--max-tries=2',
-                   '--retry-wait=1',
-                   '--connect-timeout=5',
-                   '--timeout=20',
-                   ]
-            # subprocess is better:
-            subprocess.call(cmd)
+    soup = BeautifulSoup(page_source, 'html.parser')
+    candidates = soup.find_all('div', class_="rg_meta")
 
-    # aaaall the way at the end:
-    driver.close()
+    for tag in candidates:
+        crap = tag.string
+        regex = re.search(
+            'https?://.*?\.(png|jpg|jpeg|gif)\"',
+            crap,
+            re.IGNORECASE,
+        )
+
+        if regex is not None:
+            first_match = crap[regex.start():regex.end() - 1]
+            image_urls.append(first_match)
+
+    return image_urls[0:100]
+
+
+def download_image_urls(image_urls=None):
+    '''
+    Download a list of URLs (doesn't strictly have to be images)
+    Written to take a list as argument, because we can just let
+    the downloader take care of parallel fetching.
+    '''
+    for incr, url in enumerate(image_urls):
+        subdir = search_term.replace(' ', '_')
+        folder = os.path.join('images', subdir)
+        os.system(f'mkdir -p {folder}')
+
+        file_ending = url[url.rfind('.'):]
+        filename = str(incr).zfill(3) + file_ending
+        file = os.path.join(folder, filename)
+
+        cmd = [
+            'aria2c', url, '-o', file,
+            '--max-tries=2',
+            '--retry-wait=1',
+            '--connect-timeout=5',
+            '--timeout=20',
+        ]
+
+        subprocess.call(cmd)
+

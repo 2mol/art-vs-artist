@@ -14,8 +14,6 @@ def fetch_artists():
     ambiguous = False
     all_fields = set()
     relevant_fields = {'painter', 'sculptor', 'photographer', 'illustrator'}
-    # calligrapher, graphic designer, textile printer, watercolour painter,
-    # printmaker, muralist, ...
 
     artist_lines = []
     for line in women_20cen.content.splitlines():
@@ -60,3 +58,5 @@ def fetch_artists():
         artists.append(artist_info)
 
     artist_names = [artist[0] for artist in artists]
+
+    return artists

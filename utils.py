@@ -5,22 +5,13 @@ import pandas as pd
 DATAFRAME_FILE = 'artist_dataframe.csv'
 
 ARTIST_ATTRIBUTES = ['birthyear', 'artist_types', 'gender', 'ambiguous_name']
-# ARTIST_TYPES = ['painter', 'sculptor', 'photographer', 'illustrator']
 
-# PAINTER      = 0x01
-# SCULPTOR     = 0x02
-# PHOTOGRAPHER = 0x04
-# ILLUSTRATOR  = 0x08
-# OTHER        = 0x10
+ARTIST_TYPES = {'painter', 'sculptor', 'photographer', 'illustrator',
+                # calligrapher, graphic designer, textile printer,
+                # watercolour painter, printmaker, muralist, ...
+                }
 
-# ARTIST_TYPES = {
-#     'painter':      0x01,
-#     'sculptor':     0x02,
-#     'photographer': 0x04,
-#     'illustrator':  0x08,
-# }
-
-COLUMNS = ARTIST_ATTRIBUTES  # + ARTIST_TYPES
+COLUMNS = ARTIST_ATTRIBUTES
 
 
 def empty_artist_dataframe():
