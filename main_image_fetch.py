@@ -5,22 +5,24 @@
     # call downloader function for search results
 
 from selenium import webdriver
+import pandas as pd
 
-from fetch_images import google_images_results, download_image_urls
+from fetch_images import get_image_urls, download_images
 
+#np.save('all_urls-2017-04-02.npy', all_urls)
+#read_dictionary = np.load('all_urls-2017-04-02.npy').item()
 
-# open db with list of names...
-artist_names = []
-
-driver = webdriver.Firefox()
-driver.get("https://images.google.com")
-
-for name in artist_names:
-    '''
+def download_all():
+    ''' Run image fetching from start to finish
     '''
 
-    urls = google_images_results(google_images_driver=driver, search_term=name)
+    df_artists = pd.DataFrame.from_csv('artist_dataframe.csv')
 
-    download_image_urls(image_url_list=urls)
+    artist_names = list(df_artists.index)
 
-driver.close()
+    #all_urls = dict(list(get_image_urls(search_terms=artist_names)))
+
+    for artist_name, url_list in get_image_urls(search_terms=artist_names):
+        download_images(image_urls=url_list, search_term=artist_name)
+
+    #return all_urls

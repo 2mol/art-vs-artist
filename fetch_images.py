@@ -6,14 +6,27 @@ import pickle
 import urllib
 import subprocess
 
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 from bs4 import BeautifulSoup
 
 
-def google_images_results(google_images_driver=None, search_term=None):
+def get_image_urls(search_terms=None):
+    ''' Call the google image fetcher for list of search terms
+    '''
+    driver = webdriver.Firefox()
+    driver.get("https://images.google.com")
+
+    for search_term in search_terms:
+        yield search_term, google_images_result_urls(
+            google_images_driver=driver,
+            search_term=search_term)
+
+    driver.close()
+
+
+def google_images_result_urls(google_images_driver=None, search_term=None):
     ''' Performs a google images search for the given search term,
     returning a list of the image URLs on the first page (usually 100).
     '''
@@ -33,11 +46,9 @@ def google_images_results(google_images_driver=None, search_term=None):
     while search_term not in driver.title:
         time.sleep(.5)
 
-    body = driver.find_element_by_xpath('//body')
-
     while driver.page_source.count("rg_meta") < 120:
     # go to bottom of page to get some more search results
-        body.send_keys(Keys.END)
+        driver.find_element_by_xpath('//body').send_keys(Keys.END)
         time.sleep(.5)
 
     # give the page a second to load the results:
@@ -65,7 +76,7 @@ def google_images_results(google_images_driver=None, search_term=None):
     return image_urls[0:100]
 
 
-def download_image_urls(image_urls=None):
+def download_images(image_urls=None, search_term=None):
     '''
     Download a list of URLs (doesn't strictly have to be images)
     Written to take a list as argument, because we can just let
