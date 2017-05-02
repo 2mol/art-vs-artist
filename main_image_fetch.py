@@ -12,7 +12,7 @@ from fetch_images import get_image_urls, download_images
 #np.save('all_urls-2017-04-02.npy', all_urls)
 #read_dictionary = np.load('all_urls-2017-04-02.npy').item()
 
-def download_all():
+if __name__ == '__main__':
     ''' Run image fetching from start to finish
     '''
 
