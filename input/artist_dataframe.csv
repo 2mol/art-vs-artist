@@ -1,0 +1,501 @@
+Name,birthyear,artist_types,gender,ambiguous_name
+Emily Coppin Stannard,1803,'painter',f,False
+Sophie Anderson,1823,'painter',f,False
+Eloise Harriet Stannard,1829,'painter',f,False
+Jane E. Bartlett,1839,'painter',f,False
+Marie Bracquemond,1841,'painter',f,False
+Kitty Lange Kielland,1843,'painter',f,False
+Marie-Elmina Anger,1844,'painter',f,False
+Annie Swynnerton,1844,'painter',f,False
+Mary Cassatt,1844,'painter',f,False
+Vinnie Ream,1847,'sculptor',f,False
+Lilla Cabot Perry,1848,'painter',f,False
+Clara Chipman Newton,1848,'painter',f,False
+Helen Allingham,1848,"'painter','illustrator'",f,False
+Laura Alma-Tadema,1852,'painter',f,False
+Gertrude Käsebier,1852,'photographer',f,False
+Cecilia Beaux,1855,'painter',f,False
+Gertrude Spencer-Stanhope,1857,"'painter','sculptor'",f,False
+Laura Ann Fry,1857,'painter',f,False
+Alice Pike Barney,1857,'painter',f,False
+Lucy Angeline Bacon,1857,'painter',f,False
+Louise Abbéma,1858,"'painter','sculptor'",f,False
+Anna Ancher,1859,'painter',f,False
+Laura Coombs Hills,1859,'painter',f,False
+Grandma Moses,1860,'painter',f,False
+Sally Bush,1860,'photographer',f,False
+Marianne von Werefkin,1860,'painter',f,False
+Florence Esté,1860,'painter',f,False
+Kate Cory,1861,"'painter','sculptor'",f,False
+Jessie Lipscomb,1861,'sculptor',f,False
+Alice Dannenberg,1861,'painter',f,False
+Helene Schjerfbeck,1862,'painter',f,False
+Hilma af Klint,1862,'painter',f,False
+Christabel Cockerell,1863,'painter',f,False
+Jessie Willcox Smith,1863,"'painter','illustrator'",f,False
+Frances Benjamin Johnston,1864,'photographer',f,False
+Séraphine Louis,1864,'painter',f,False
+Harriet Blackstone,1864,'painter',f,False
+Suzanne Valadon,1865,'painter',f,False
+Blanche Hoschedé Monet,1865,'painter',f,False
+Jenny Eakin Delony,1866,'painter',f,False
+Alice Boughton,1866,'photographer',f,False
+Käthe Kollwitz,1867,"'painter','sculptor'",f,False
+Florence Dreyfous,1868,'painter',f,False
+Elizabeth Eaton Burton,1869,'painter',f,False
+Ellen Thesleff,1869,'painter',f,False
+Bessie MacNicol,1869,'painter',f,False
+Anne Goldthwaite,1869,'painter',f,False
+Anna Hope Hudson,1869,'painter',f,False
+Janet Scudder,1869,'sculptor',f,False
+Lucy Kemp-Welch,1869,'painter',f,False
+Martha Stettler,1870,'painter',f,False
+Enid Yandell,1870,'sculptor',f,False
+Elinor Darwin,1871,'painter',f,False
+Elizabeth Shippen Green,1871,"'painter','illustrator'",f,False
+Edith Woodman Burroughs,1871,'sculptor',f,False
+Mary Foote,1872,'painter',f,False
+Bessie Potter Vonnoh,1872,'sculptor',f,False
+Edith Maryon,1872,'sculptor',f,False
+Juliet Thompson,1873,'painter',f,False
+Ethel Sands,1873,'painter',f,False
+Nellie Walker,1874,'sculptor',f,False
+Romaine Brooks,1874,'painter',f,False
+Lizzy Ansingh,1875,'painter',f,False
+Dulah Marie Evans,1875,"'painter','photographer'",f,False
+Elenore Abbott,1875,'painter',f,False
+Margaret Preston,1875,'painter',f,False
+Clara McDonald Williamson,1875,'painter',f,False
+Paula Modersohn-Becker,1876,'painter',f,False
+Edith Dimock,1876,'painter',f,False
+Christian Jane Fergusson,1876,'painter',f,False
+Gwen John,1876,'painter',f,False
+Helen Margaret Spanton,1877,'painter',f,False
+Gabriele Münter,1877,'painter',f,False
+Laura Knight,1877,'painter',f,False
+Elena Guro,1877,'painter',f,False
+Meta Vaux Warrick Fuller,1877,"'painter','sculptor'",f,False
+Katherine Sophie Dreier,1877,'painter',f,False
+Sr. Maria Stanisia,1878,'painter',f,False
+Wilhelmina Weber Furlong,1878,'painter',f,False
+Edith Haworth,1878,'painter',f,False
+Margaret Gere,1878,'painter',f,False
+Émilie Charmy,1878,'painter',f,False
+Anna Coleman Ladd,1878,'sculptor',f,False
+Anna Heyward Taylor,1879,'painter',f,False
+Bessie Davidson,1879,'painter',f,False
+Vanessa Bell,1879,'painter',f,False
+Henrietta Shore,1880,'painter',f,False
+Ester Ellqvist,1880,'painter',f,False
+Ethel Myers,1881,"'painter','sculptor'",f,False
+Natalia Goncharova,1881,'painter',f,False
+Agnes Pelton,1881,'painter',f,False
+Doris Ulmann,1882,'photographer',f,False
+Norah Neilson Gray,1882,'painter',f,False
+Aleksandra Ekster,1882,'painter',f,False
+Ethel Gabain,1883,'painter',f,False
+Imogen Cunningham,1883,'photographer',f,False
+Clara Elsene Peck,1883,"'painter','illustrator'",f,False
+Marie Laurencin,1883,'painter',f,False
+Zinaida Serebriakova,1884,'painter',f,False
+Madeline Emily Green,1884,'painter',f,False
+Bessie Marsh Brewer,1884,'sculptor',f,False
+Hilda Rix Nicholas,1884,'painter',f,False
+Sonia Delaunay,1885,'painter',f,False
+Sigrid Hjertén,1885,'painter',f,False
+"Nessa Cohen,",1885,'sculptor',f,False
+Nadezhda Udaltsova,1886,'painter',f,False
+Mary Agnes Yerkes,1886,'painter',f,False
+Tarsila do Amaral,1886,'painter',f,False
+Georgia O'Keeffe,1887,'painter',f,False
+Laura Wheeler Waring,1887,'painter',f,False
+Rowena Meeks Abdy,1887,'painter',f,False
+Marguerite Zorach,1887,'painter',f,False
+Valentine Hugo,1887,'illustrator',f,False
+Malvina Hoffman,1887,'sculptor',f,False
+Anne Ryan,1889,'painter',f,False
+Geneva Mercer,1889,'sculptor',f,False
+Hannah Höch,1889,'photographer',f,False
+Laura Gardin Fraser,1889,'sculptor',f,False
+Sophie Taeuber-Arp,1889,'painter',f,False
+Olive Mudie-Cooke,1890,'painter',f,False
+Grace Crowley,1890,'painter',f,False
+Laura Gilpin,1891,'photographer',f,False
+Charley Toorop,1891,'painter',f,False
+Alma Thomas,1891,'painter',f,False
+Mabel Alvarez,1891,'painter',f,False
+Dorrit Black,1891,'painter',f,False
+Augusta Savage,1892,'sculptor',f,False
+Dod Procter,1892,'painter',f,False
+Suzanne Malherbe,1892,'illustrator',f,False
+Yevonde Middleton,1893,'photographer',f,False
+Dora Carrington,1893,'painter',f,False
+Orovida Camille Pissarro,1893,'painter',f,False
+Lucia Moholy,1894,'photographer',f,False
+Clara Birnberg,1894,"'illustrator','sculptor'",f,False
+Bashka Paeff,1894,'sculptor',f,False
+Varvara Stepanova,1894,'painter',f,False
+Claude Cahun,1894,'photographer',f,False
+Ogura Yuki,1895,'painter',f,False
+Margaret Calkin James,1895,'painter',f,False
+Peggy Bacon,1895,"'painter','illustrator'",f,False
+Dorothea Lange,1895,'photographer',f,False
+Lilian May Miller,1895,'painter',f,False
+Louise Dahl-Wolfe,1895,'photographer',f,False
+Lucile Blanch,1895,'painter',f,False
+Tina Modotti,1896,'photographer',f,False
+Karimeh Abbud,1896,'photographer',f,False
+Lotte Jacobi,1896,'photographer',f,False
+Kathleen Blackshear,1897,'painter',f,False
+Dorothy Coke,1897,'painter',f,False
+Elise Blumann,1897,'painter',f,False
+Margaret Firth,1898,'painter',f,False
+Berenice Abbott,1898,'photographer',f,False
+Elene Akhvlediani,1898,'painter',f,False
+Katarzyna Kobro,1898,'sculptor',f,False
+Jeanne Hébuterne,1898,'painter',f,False
+Kay Sage,1898,'painter',f,False
+Tamara de Lempicka,1898,'painter',f,False
+Eileen Agar,1899,'painter',f,False
+Louise Nevelson,1899,'sculptor',f,False
+Winifred Knights,1899,'painter',f,False
+Elaine de Kooning,18–1,'painter',f,False
+Kali,18–1,'painter',f,False
+Jane Frank,18–1,"'painter','sculptor'",f,False
+Pablita Velarde,18–2,'painter',f,False
+Sultana Suruzhon,1900,'painter',f,False
+Mary Potter,1900,'painter',f,False
+Margaret Brundage,1900,'illustrator',f,False
+Betty Parsons,1900,'painter',f,False
+Selma Burke,1900,'sculptor',f,False
+Alice Neel,1900,'painter',f,False
+Barbara Morgan,1900,'photographer',f,False
+Maria Zubreeva,1900,'painter',f,False
+Louise Emerson Ronnebeck,1901,'painter',f,False
+Dorothy Wagner Puccinelli,1901,'painter',f,False
+Dorothy Dehner,1901,'sculptor',f,False
+Lisette Model,1901,'photographer',f,False
+Gertrude Hermes,1901,'sculptor',f,False
+Jessamine Shumate,1902,'painter',f,False
+Irene Rice Pereira,1902,'painter',f,False
+Edith Hamlin,1902,'painter',f,False
+Maruja Mallo,1902,'painter',f,False
+Isabel Bishop,1902,'painter',f,False
+Dorr Bothwell,1902,'painter',f,False
+Ethel Spears,1903,'painter',f,False
+Bernarda Bryson Shahn,1903,'painter',f,False
+"Ethel Schwabacher,",1903,'painter',f,False
+Ruth Harriet Louise,1903,'photographer',f,False
+Donia Nachshen,1903,'illustrator',f,False
+Barbara Hepworth,1903,'sculptor',f,False
+Ray Howard-Jones,1903,'painter',f,False
+Margaret Bourke-White,1904,'photographer',f,False
+Mary Adshead,1904,'painter',f,False
+Perle Fine,1905,'painter',f,False
+Ruth Bernhard,1905,'photographer',f,False
+Lois Mailou Jones,1905,'painter',f,False
+Doris Lee,1905,'painter',f,False
+Evelyn Dunbar,1906,'painter',f,False
+Norma Bull,1906,'painter',f,False
+Emmy Bridgewater,1906,'painter',f,False
+Lee Miller,1907,'photographer',f,False
+Lenore Tawney,1907,'sculptor',f,False
+Leonor Fini,1907,'painter',f,False
+Catherine Tharp Altvater,1907,'painter',f,False
+Evgenia Baykova,1907,'painter',f,False
+Lola Álvarez Bravo,1907,'photographer',f,False
+Henriette Wyeth,1907,'painter',f,False
+Karen Holtsmark,1907,'painter',f,False
+Dora Maar,1907,"'painter','photographer'",f,False
+Remedios Varo,1908,'painter',f,False
+Gisèle Freund,1908,'photographer',f,False
+Lee Krasner,1908,'painter',f,False
+Maria Helena Vieira da Silva,1908,'painter',f,False
+Claire Falkenstein,1908,"'painter','sculptor'",f,False
+Helen Lundeberg,1908,'painter',f,False
+"Stella Schmolle,",1908,'painter',f,False
+Ilse Weber,1908,'painter',f,False
+Gertrude Abercrombie,1909,'painter',f,False
+Cornelia MacIntyre Foley,1909,'painter',f,False
+Milena Pavlović-Barili,1909,'painter',f,False
+Nancy Carline,1909,'painter',f,False
+Hansel Mieth,1909,'photographer',f,False
+Elena Skuin,1909,'painter',f,False
+Anna Kostrova,1909,'painter',f,False
+Ida Abelman,1910,'painter',f,False
+Marion Post Wolcott,1910,'photographer',f,False
+Jacqueline Lamba,1910,'painter',f,False
+Hedda Sterne,1910,'painter',f,False
+Semiha Berksoy,1910,'painter',f,False
+Elsa Thiemann,1910,'photographer',f,False
+Dorothea Tanning,1910,'painter',f,False
+Gerda Taro,1910,'photographer',f,False
+Hilda Grossman Morris,1911,'sculptor',f,False
+Louise Bourgeois,1911,'sculptor',f,False
+Nora Heysen,1911,'painter',f,False
+Agnes Martin,1912,'painter',f,False
+Domicėlė Tarabildienė,1912,"'illustrator','sculptor'",f,False
+Erlund Hudson,1912,'painter',f,False
+Eve Arnold,1912,'photographer',f,False
+Beatrice Mandelman,1912,'painter',f,False
+Anya Teixeira,1913,'photographer',f,False
+Mercedes Matter née Carles,1913,'painter',f,False
+Amrita Sher-Gil,1913,'painter',f,False
+Meret Oppenheim,1913,'sculptor',f,False
+Helen Levitt,1913,'photographer',f,False
+Taisia Afonina,1913,'painter',f,False
+Chien-Ying Chang,1913,'painter',f,False
+Frances Macdonald,1914,'painter',f,False
+Gwendolyn Knight,1914,'painter',f,False
+Tove Jansson,1914,"'painter','illustrator'",f,False
+Lilo Rasch-Naegele,1914,"'painter','illustrator'",f,False
+Malvina Cheek,1915,'painter',f,False
+Carmen Herrera,1915,'painter',f,False
+Nadezhda Shteinmiller,1915,'painter',f,False
+Maria Rudnitskaya,1916,'painter',f,False
+Joan Elizabeth Woollard,1916,'sculptor',f,False
+Ethel Magafan,1916,'painter',f,False
+Evgenia Antipova,1917,'painter',f,False
+Bridget Bate Tichenor,1917,'painter',f,False
+Leonora Carrington,1917,'painter',f,False
+Mona Moore,1917,'painter',f,False
+Louisa Matthíasdóttir,1917,'painter',f,False
+Rosalie Gascoigne,1917,'sculptor',f,False
+Tuulikki Pietilä,1917,'illustrator',f,False
+Charlotte Salomon,1917,'painter',f,False
+Maya Deren,1917,'photographer',f,False
+Ruth Ray,1919,'painter',f,False
+Maria Lassnig,1919,'painter',f,False
+Honoré Desmond Sharrer,1920,'painter',f,False
+Hannah Tompkins,1920,'painter',f,False
+Elaine Hamilton-O'Neal,1920,'painter',f,False
+Victorine Foot,1920,'painter',f,False
+Françoise Gilot,1921,'painter',f,False
+Tatiana Kopnina,1921,'painter',f,False
+Anne Truitt,1921,'sculptor',f,False
+Fanny Brennan,1921,'painter',f,False
+Esther Bubley,1921,'photographer',f,False
+Leona Wood,1921,'painter',f,False
+Grace Hartigan,1922,'painter',f,False
+Nina Veselova,1922,'painter',f,False
+Sarai Sherman,1922,"'painter','sculptor'",f,False
+Nell Blaine,1922,'painter',f,False
+Irina Baldina,1922,'painter',f,False
+Inge Morath,1923,'photographer',f,False
+Margaret Olley,1923,'painter',f,False
+Diane Arbus,1923,'photographer',f,False
+Martha Holmes,1923,'photographer',f,False
+Behjat Sadr,1924,'painter',f,False
+Monir Shahroudy Farmanfarmaian,1924,'sculptor',f,False
+Doretta Frenna Smith,1924,'painter',f,False
+Maya Kopitseva,1924,'painter',f,False
+Jane Wilson,1924,'painter',f,False
+Jane Freilicher,1924,'painter',f,False
+Mimi Parent,1924,'painter',f,False
+Carla Accardi,1924,'painter',f,False
+Druie Bowett,1924,'painter',f,False
+Etel Adnan,1925,'painter',f,False
+Marina Kozlovskaya,1925,'painter',f,False
+Marie Cosindas,1925,'photographer',f,False
+Sandra Blow,1925,'painter',f,False
+Kapitolina Rumiantseva,1925,'painter',f,False
+Lila Katzen,1925,'sculptor',f,False
+Joan Mitchell,1925,'painter',f,False
+Nancy Spero,1926,'painter',f,False
+Mansooreh Hosseini,1926,'painter',f,False
+Elena Kostenko,1926,'painter',f,False
+Sonia Gechtoff,1926,'painter',f,False
+Rosalyn Drexler,1926,'painter',f,False
+Valeria Larina,1926,'painter',f,False
+Zlata Bizova,1927,'painter',f,False
+Lilly Fenichel,1927,'painter',f,False
+Galina Rumiantseva,1927,'painter',f,False
+Lois Dodd,1927,'painter',f,False
+Alice Baber,1928,'painter',f,False
+Pat Passlof,1928,'painter',f,False
+Mokarrameh Ghanbari,1928,'painter',f,False
+Helen Frankenthaler,1928,'painter',f,False
+Mary Fitzpayne,1928,'painter',f,False
+Galina Smirnova,1929,'painter',f,False
+Jo Baer,1929,'painter',f,False
+Cynthia Kenny,1929,'painter',f,False
+Ida Applebroog,1929,'painter',f,False
+Jay DeFeo,1929,'painter',f,False
+Yayoi Kusama,1929,'sculptor',f,False
+Jackie Ferrara,1929,'sculptor',f,False
+Elisabeth Frink,1930,'sculptor',f,False
+Gillian Ayres,1930,'painter',f,False
+Faith Ringgold,1930,'painter',f,False
+Deborah Remington,1930,'painter',f,False
+Lee Lozano,1930,'painter',f,False
+Marisol Escobar,1930,'sculptor',f,False
+Alice Adams,1930,'sculptor',f,False
+Magdalena Abakanowicz,1930,'sculptor',f,False
+Bridget Riley,1931,'painter',f,False
+Emma Andijewska,1931,'painter',f,False
+Vera Nazina,1931,'painter',f,False
+Helene Aylon,1931,'sculptor',f,False
+Audrey Flack,1931,"'painter','sculptor'",f,False
+Marjorie Strider,1931,'sculptor',f,False
+Irina Dobrekova,1931,'painter',f,False
+Lee Bontecou,1931,'sculptor',f,False
+Martha Edelheit,1931,'painter',f,False
+Dorothea Rockburne,1932,'painter',f,False
+Joan Semmel,1932,'painter',f,False
+Valentina Monakhova,1932,'painter',f,False
+Emily Mason,1932,'painter',f,False
+Chryssa,1933,'sculptor',f,False
+Michelle Stuart,1933,"'painter','sculptor','photographer'",f,False
+P. Buckley Moss,1933,'painter',f,False
+Elena Gorokhova,1933,'painter',f,False
+Ree Morton,1933,'painter',f,False
+Totte Mannes,1933,'painter',f,False
+Nancy Petyarre,1934,'painter',f,False
+Hilla Becher,1934,'photographer',f,False
+Gayleen Aiken,1934,'painter',f,False
+Tatiana Gorb,1935,'painter',f,False
+Eva Hesse,1936,'sculptor',f,False
+Shirley Gorelick,1936,'painter',f,False
+Iran Darroudi,1936,'painter',f,False
+Leyly Matine-Daftary,1937,'painter',f,False
+Carol Heifetz Neiman,1937,'painter',f,False
+Sara Leighton,1937,'painter',f,False
+Pat Steir,1938,'painter',f,False
+Pauline Boty,1938,'painter',f,False
+Nancy Holt,1938,'sculptor',f,False
+Janet Fish,1938,'painter',f,False
+Joan Brown,1938,'painter',f,False
+Nancy Graves,1939,"'painter','sculptor'",f,False
+Irina Getmanskaya,1939,'painter',f,False
+Vivienne Binns,1940,'painter',f,False
+Mary Ellen Mark,1940,'photographer',f,False
+Barbara Rossi,1940,'painter',f,False
+Mym Tuma,1940,'painter',f,False
+Elizabeth Murray,1940,'painter',f,False
+Gladys Nilsson,1940,'painter',f,False
+"Pat Lipsky,",1940,'painter',f,False
+Margaret Harrison,1940,'painter',f,False
+Hannah Wilke,1940,"'sculptor','photographer'",f,False
+Joan Snyder,1940,'painter',f,False
+Jackie Winsor,1941,'sculptor',f,False
+Heather Angel,1941,'photographer',f,False
+Val Wilmer,1941,'photographer',f,False
+Lynda Benglis,1941,'sculptor',f,False
+Linda McCartney,1942,'photographer',f,False
+Ursula von Rydingsvard,1942,'sculptor',f,False
+Susan Crile,1942,'painter',f,False
+Sheila Mullen,1942,'painter',f,False
+Judith Bernstein,1942,'painter',f,False
+Gayane Khachaturian,1942,'painter',f,False
+Suellen Rocca,1943,'painter',f,False
+Sylvia Plachy,1943,'photographer',f,False
+Martha Rosler,1943,'photographer',f,False
+"Gretchen Albrecht,",1943,'painter',f,False
+Helen Hardin,1943,'painter',f,False
+Jan Groover,1943,'photographer',f,False
+Lauretta Vinciarelli,1943,'painter',f,False
+Rebecca Horn,1944,'sculptor',f,False
+Markéta Luskačová,1944,'photographer',f,False
+Lynn Davis,1944,'photographer',f,False
+Susan Mohl Powers,1944,"'painter','sculptor'",f,False
+Guity Novin,1944,'painter',f,False
+Masumi Hayashi,1945,'photographer',f,False
+Maggi Hambling,1945,"'painter','sculptor'",f,False
+Carole Feuerman,1945,'sculptor',f,False
+Carol Sutton,1945,'painter',f,False
+Joyce Tenneson,1945,'photographer',f,False
+Tina Barney,1945,'photographer',f,False
+Gloria Petyarre,1945,'painter',f,False
+Sandy Skoglund,1946,'photographer',f,False
+Alice Aycock,1946,'sculptor',f,False
+Avis Newman,1946,"'painter','sculptor'",f,False
+Pacita Abad,1946,'painter',f,False
+Anne Bascove,1946,'painter',f,False
+Orshi Drozdik,1946,"'sculptor','photographer'",f,False
+Miyako Ishiuchi,1947,'photographer',f,False
+Shelagh Cluett,1947,'sculptor',f,False
+Squeak Carnwath,1947,'painter',f,False
+Ana Mendieta,1948,'sculptor',f,False
+Barbara Rosenthal,1948,'photographer',f,False
+Susan Meiselas,1948,'photographer',f,False
+"Hung Liu,",1948,'painter',f,False
+Hollis Sigler,1948,'painter',f,False
+Bracha Ettinger,1948,"'painter','photographer'",f,False
+Altoon Sultan,1948,'painter',f,False
+Glòria Muñoz,1949,'painter',f,False
+Melinda Bordelon,1949,"'painter','illustrator'",f,False
+Vicki Stone,1949,'painter',f,False
+Barbara Schwartz,1949,"'painter','sculptor'",f,False
+Annie Leibovitz,1949,'photographer',f,False
+Cecilia Alvarez,1950,'painter',f,False
+Kilmeny Niland,1950,"'painter','illustrator'",f,False
+Deborah Niland,1950,"'painter','illustrator'",f,False
+Michiko Matsumoto,1950,'photographer',f,False
+Davida Allen,1951,'painter',f,False
+Louisa Chase,1951,'painter',f,False
+Sally Mann,1951,'photographer',f,False
+Leiko Ikemura,1951,"'painter','sculptor'",f,False
+Zoja Trofimiuk,1952,'sculptor',f,False
+Chinwe Chukwuogo-Roy,1952,'painter',f,False
+Zhang Xin,1953,'painter',f,False
+Carrie Mae Weems,1953,'photographer',f,False
+Ingrid Pollard,1953,'photographer',f,False
+Shani Rhys James,1953,'painter',f,False
+Nan Goldin,1953,'photographer',f,False
+Sophie Calle,1953,'photographer',f,False
+Anne Appleby,1954,'painter',f,False
+Kiki Smith,1954,'sculptor',f,False
+Cindy Sherman,1954,'photographer',f,False
+Roni Horn,1955,'photographer',f,False
+Jenny Scobel,1955,'painter',f,False
+Alison Turnbull,1956,"'painter','sculptor'",f,False
+Anne Geddes,1956,'photographer',f,False
+Cady Noland,1956,'sculptor',f,False
+Cornelia Parker,1956,'sculptor',f,False
+Lynda Barry,1956,'illustrator',f,False
+Rumiko Takahashi,1957,'illustrator',f,False
+Li Shuang,1957,'painter',f,False
+Chila Kumari Burman,1957,'painter',f,False
+Shirin Neshat,1957,'photographer',f,False
+Marita Liulia,1957,'photographer',f,False
+Emmi Whitehorse,1957,'painter',f,False
+Sokari Douglas Camp,1958,'sculptor',f,False
+Jiang Shuo,1958,'sculptor',f,False
+Renee Stout,1958,'photographer',f,False
+Joanne Gair,1958,'painter',f,False
+Francesca Woodman,1958,'photographer',f,False
+Akiko Hatsu,1959,'illustrator',f,False
+Eija-Liisa Ahtila,1959,'photographer',f,False
+Claudette Johnson,1959,'painter',f,False
+Lorna Simpson,1960,'photographer',f,False
+Carolyn Cole,1961,'photographer',f,False
+Catherine Opie,1961,'photographer',f,False
+Anna Fox,1961,'photographer',f,False
+Zoe Leonard,1961,'photographer',f,False
+Olivia Peguero,1962,"'painter','sculptor'",f,False
+Roxanne Swentzell,1962,'sculptor',f,False
+Lori Kay,1962,'sculptor',f,False
+Lorena Kloosterboer,1962,"'painter','sculptor'",f,False
+Rachel Whiteread,1963,'sculptor',f,False
+Margarete Bagshaw,1964,'painter',f,False
+Jonny Star,1964,'sculptor',f,False
+Toba Khedoori,1964,'sculptor',f,False
+Rachel Khedoori,1964,'sculptor',f,False
+Ellen Gallagher,1965,'painter',f,False
+Melanie Yazzie,1966,"'painter','sculptor'",f,False
+Jill Thompson,1966,'illustrator',f,False
+Abigail Fallis,1968,'sculptor',f,False
+Verónica Ruiz de Velasco,1968,'painter',f,False
+Kara Walker,1969,'painter',f,False
+Cecily Brown,1969,'painter',f,False
+Chantal Joffe,1969,'painter',f,False
+Maya Hayuk,1969,'painter',f,False
+Brita Granström,1969,"'painter','illustrator'",f,False
+Inka Essenhigh,1969,'painter',f,False
+Jessica Abel,1969,'illustrator',f,False
+Lique Schoot,1969,"'painter','photographer'",f,False
+Jenny Saville,1970,'painter',f,False
+Julie Mehretu,1970,'painter',f,False
+Rachel Kneebone,1973,'sculptor',f,False
+Hiromix,1976,'photographer',f,False
+Lynette Yiadom-Boakye,1977,'painter',f,False
