@@ -2,6 +2,7 @@
 the results, specifically their image urls.
 """
 
+import re
 import time
 
 from selenium import webdriver
@@ -20,7 +21,10 @@ def get_image_urls(search_input, max_results=100):
     else:
         raise Exception("pass either a string or a list as search term")
 
-    return search_input(search_inputs, max_results=max_results)
+    return perform_search_google_images(
+        search_inputs,
+        max_results=max_results
+    )
 
 
 
@@ -63,6 +67,8 @@ def search_google_images(driver=None, search_term=None, max_results=None):
     while search_term not in driver.title:
         time.sleep(.1)
 
+    time.sleep(.5)
+
     while driver.page_source.count("rg_meta") < max_results * 1.2:
         # go to bottom of page to get some more search results
         driver.find_element_by_xpath('//body').send_keys(Keys.END)
@@ -88,3 +94,13 @@ def search_google_images(driver=None, search_term=None, max_results=None):
             image_urls.append(first_match)
 
     return image_urls[0:max_results]
+
+
+if __name__ == '__main__':
+
+    urls = list(
+        get_image_urls("picasso", max_results=100)
+        )
+
+    print(len(urls))
+    print(urls)
