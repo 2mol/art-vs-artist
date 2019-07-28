@@ -5,8 +5,9 @@ the results, specifically their image urls.
 import re
 import time
 
-from selenium import webdriver
+import selenium
 from selenium.webdriver.common.keys import Keys
+
 
 from bs4 import BeautifulSoup
 
@@ -27,14 +28,13 @@ def get_image_urls(search_input, max_results=100):
     )
 
 
-
 # utility functions
 
 
 def perform_search_google_images(search_inputs, max_results=None):
     ''' Iterator that returns a list of urls for each search term.
     '''
-    driver = webdriver.Firefox()
+    driver = selenium.webdriver.Firefox()
 
     try:
         driver.get("https://images.google.com")
@@ -67,11 +67,12 @@ def search_google_images(driver=None, search_term=None, max_results=None):
     while search_term not in driver.title:
         time.sleep(.1)
 
-    time.sleep(.5)
-
     while driver.page_source.count("rg_meta") < max_results * 1.2:
         # go to bottom of page to get some more search results
-        driver.find_element_by_xpath('//body').send_keys(Keys.END)
+        try:
+            driver.find_element_by_xpath('//body').send_keys(Keys.END)
+        except selenium.common.exceptions.NoSuchElementException:
+            pass
         time.sleep(.5)
 
     page_source = driver.page_source
@@ -97,10 +98,9 @@ def search_google_images(driver=None, search_term=None, max_results=None):
 
 
 if __name__ == '__main__':
+    """ just for testing
+    """
 
-    urls = list(
-        get_image_urls("picasso", max_results=100)
-        )
-
-    print(len(urls))
-    print(urls)
+    for term, urls in get_image_urls("picasso", max_results=100):
+        print(len(urls))
+        print(urls)
