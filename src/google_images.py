@@ -12,35 +12,19 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
 
-def get_image_urls(search_input, max_results=100):
-    """
-    """
-    if isinstance(search_input, str):
-        search_inputs = [search_input]
-    elif isinstance(search_input, list):
-        search_inputs = search_input
-    else:
-        raise Exception("pass either a string or a list as search term")
-
-    return perform_search_google_images(
-        search_inputs,
-        max_results=max_results
-    )
-
-
-# utility functions
-
-
-def perform_search_google_images(search_inputs, max_results=None):
+def iter_search_google_images(search, max_results=None):
     ''' Iterator that returns a list of urls for each search term.
     '''
+
+    search_inputs = search if isinstance(search, list) else [search]
+
     driver = selenium.webdriver.Firefox()
 
     try:
         driver.get("https://images.google.com")
 
         for search_term in search_inputs:
-            urls = search_google_images(
+            urls = _search_google_images(
                 driver=driver,
                 search_term=search_term,
                 max_results=max_results
@@ -48,11 +32,13 @@ def perform_search_google_images(search_inputs, max_results=None):
 
             yield search_term, urls
 
+    except Exception(e):
+        print(e)
     finally:
         driver.close()
 
 
-def search_google_images(driver=None, search_term=None, max_results=None):
+def _search_google_images(driver=None, search_term=None, max_results=None):
     ''' Performs a google images search for the given search term,
     returning a list of the image URLs on the first page.
     '''
@@ -101,6 +87,6 @@ if __name__ == '__main__':
     """ just for testing
     """
 
-    for term, urls in get_image_urls("picasso", max_results=100):
+    for term, urls in iter_search_google_images("picasso", max_results=100):
         print(len(urls))
         print(urls)
