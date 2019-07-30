@@ -23,16 +23,22 @@ def iter_search_google_images(search, max_results=None):
     try:
         driver.get("https://images.google.com")
 
-        for search_term in search_inputs:
-            urls = _search_google_images(
-                driver=driver,
-                search_term=search_term,
-                max_results=max_results
-            )
+        try:
+            for search_term in search_inputs:
+                urls = _search_google_images(
+                    driver=driver,
+                    search_term=search_term,
+                    max_results=max_results
+                )
 
-            yield search_term, urls
+                yield search_term, urls
 
-    except Exception(e):
+        except Exception as e:
+            print(f'failed for {search_term}')
+            print(e)
+
+    except Exception as e:
+        print('total fail...')
         print(e)
     finally:
         driver.close()
@@ -82,11 +88,27 @@ def _search_google_images(driver=None, search_term=None, max_results=None):
 
     return image_urls[0:max_results]
 
+manual_list = [
+    "Lisa Hanawalt","Niki de Saint Phalle","James Turrell",
+    "Pablo Picasso","Picasso","Wassily Kandinsky",
+    "Francis Bacon","Leonardo DaVinci","Michelangelo",
+    "Frida Kahlo","Artemisia Gentileschi","Joan Mitchell",
+    "Jackson Pollock","Gustav Klimt","Egon Schiele",
+    "Marlene Dumas","Tracey Emin","Jenny Saville",
+    "Bridget Riley","Yves Klein","Alphonse Mucha",
+    "Aubrey Beardsley","James Ensor","Edvard Munch",
+    "Camille Claudel"
+]
 
 if __name__ == '__main__':
     """ just for testing
     """
+    terms = manual_list
 
-    for term, urls in iter_search_google_images("picasso", max_results=100):
-        print(len(urls))
-        print(urls)
+    print(f"== searching google images for {len(terms)} terms")
+
+    for term, urls in iter_search_google_images(terms, max_results=100):
+        print(term)
+        print(f'<< found {len(urls)} urls <<-----------------')
+
+    print("== success.")
