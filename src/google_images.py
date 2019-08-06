@@ -23,8 +23,8 @@ def iter_search_google_images(search, max_results=None):
     try:
         driver.get("https://images.google.com")
 
-        try:
-            for search_term in search_inputs:
+        for search_term in search_inputs:
+            try:
                 urls = _search_google_images(
                     driver=driver,
                     search_term=search_term,
@@ -33,9 +33,10 @@ def iter_search_google_images(search, max_results=None):
 
                 yield search_term, urls
 
-        except Exception as e:
-            print(f'failed for {search_term}')
-            print(e)
+            except Exception as e:
+                print(f'x- failed for {search_term}')
+                print(e)
+                print(e.args)
 
     except Exception as e:
         print('total fail...')
@@ -50,14 +51,25 @@ def _search_google_images(driver=None, search_term=None, max_results=None):
     '''
     image_urls = []
 
-    elem = driver.find_element_by_name("q")
+    tries = 5
+    while tries > 0:
+        try:
+            elem = driver.find_element_by_name("q")
+            break
+        except selenium.common.exceptions.NoSuchElementException:
+            print("-- couldn't find search field, trying again in a sec")
+            time.sleep(.1)
+            tries -= 1
+            continue
+        print(f'x- failed for {search_term}')
     elem.clear()
     elem.send_keys(search_term)
     elem.send_keys(Keys.RETURN)
 
     # wait for our results page to load:
     while search_term not in driver.title:
-        time.sleep(.1)
+        print("-- waiting")
+        time.sleep(.2)
 
     while driver.page_source.count("rg_meta") < max_results * 1.2:
         # go to bottom of page to get some more search results
@@ -111,4 +123,4 @@ if __name__ == '__main__':
         print(term)
         print(f'<< found {len(urls)} urls <<-----------------')
 
-    print("== success.")
+    print("== done.")
