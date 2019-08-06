@@ -2,6 +2,9 @@
 the results, specifically their image urls.
 """
 
+import os
+import subprocess
+
 import re
 import time
 
@@ -100,6 +103,37 @@ def _search_google_images(driver=None, search_term=None, max_results=None):
 
     return image_urls[0:max_results]
 
+
+def download_images(image_urls=None, search_term=None):
+    '''
+    Download a list of URLs (doesn't strictly have to be images)
+    Written to take a list as argument, because we can just let
+    the downloader take care of parallel fetching.
+    '''
+    subdir = search_term.replace(' ', '_')
+    folder = os.path.join('images', subdir)
+    os.system(f'mkdir -p {folder}')
+
+    url_folder = 'url_lists'
+    os.system(f'mkdir -p {url_folder}')
+    url_list_file = os.path.join(url_folder, f'{subdir}.txt')
+
+    with open(url_list_file, 'w') as f:
+        f.write('\n'.join(image_urls))
+
+    cmd = [
+        'aria2c',
+        '-i', url_list_file,
+        '-d', folder,
+        '--max-tries=2',
+        '--retry-wait=1',
+        '--connect-timeout=5',
+        '--timeout=20',
+    ]
+
+    subprocess.Popen(cmd)
+
+
 manual_list = [
     "Lisa Hanawalt","Niki de Saint Phalle","James Turrell",
     "Pablo Picasso","Picasso","Wassily Kandinsky",
@@ -122,5 +156,6 @@ if __name__ == '__main__':
     for term, urls in iter_search_google_images(terms, max_results=100):
         print(term)
         print(f'<< found {len(urls)} urls <<-----------------')
+        download_images(image_urls=urls, search_term=term)
 
     print("== done.")
