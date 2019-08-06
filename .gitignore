@@ -3,4 +3,6 @@ __pycache__/
 venv/
 *.swp
 *.log
-
+.DS_Store
+images/
+url_lists/
