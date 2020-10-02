@@ -3,10 +3,12 @@
 __pycache__/
 *.py[cod]
 venv/
+.ipynb_checkpoints/
 
 .vscode
 *.swp
 *.log
-
+.envrc
 images/
 url_lists/
+
