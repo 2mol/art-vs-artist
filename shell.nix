@@ -7,16 +7,16 @@ with pkgs; mkShell {
   buildInputs = [
     toilet
 
-    python38
+    #python38
     # the rule is: python *tooling* is added here,
     # while *libraries* are added through a python package manager.
-    python38Packages.jupyter 
-    python38Packages.poetry
+    #python38Packages.jupyter 
+    #python38Packages.poetry
 
     chromedriver
   ];
 
   shellHook = ''
-    toilet " art versus artist " -f term -F border --gay
+    toilet " art vs. artist " -f term -F border --gay
   '';
 }
